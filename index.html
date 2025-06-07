@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>马里奥打地鼠</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<div id="title">欢迎进入打地鼠游戏</div>
+<div id="login">
+  <input type="text" id="username" placeholder="用户名">
+  <input type="password" id="password" placeholder="密码">
+  <button id="register">注册</button>
+  <button id="loginButton">登录</button>
+  <button id="leaderboardButton">排行榜</button>
+</div>
+<div id="difficulty" style="display: none;">
+  <button id="easy">Easy</button>
+  <button id="hard">Hard</button>
+</div>
+<div id="game" style="display: none;">
+  <div id="score">分数: 0</div>
+  <div id="time">剩余时间: 60 秒</div>
+  <div id="board"></div>
+  <button id="reset">重置</button>
+</div>
+<script src="script.js"></script>
+</body>
+
+</html>

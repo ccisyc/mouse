@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+#title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+#login input,
+#login button {
+    margin: 5px;
+    padding: 5px;
+}
+
+#difficulty button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+#game {
+    margin-top: 20px;
+}
+
+#score,
+#time {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#board div {
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+#reset {
+    padding: 10px 20px;
+    font-size: 16px;
+}
